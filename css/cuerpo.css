@@ -1,0 +1,109 @@
+.contenedor-cuerpo {
+  flex: 1;
+  display: flex;
+  background: #424242;
+  background: linear-gradient(
+    90deg,
+    rgba(110, 109, 109, 1) 0%,
+    rgba(66, 66, 66, 1) 23%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+  justify-content: space-around;
+}
+
+/*LADO IZQUIERDO*/
+.izquierdo {
+  flex: 1;
+  width: 50%;
+  margin: 0;
+  font-weight: 200;
+  color: #f0f0f0;
+  align-content: left;
+  margin-left: 60px;
+  padding: 50px;
+}
+
+.izquierdo > .p1 {
+  font-size: 50px;
+  padding: 0 20px 0 0;
+}
+
+.izquierdo > .p1 > strong {
+  color: white;
+}
+
+.izquierdo > .p1 img {
+  width: 40px;
+}
+
+.izquierdo > .p2 {
+  padding: 5px 40px 5px 0;
+  font-size: 42px;
+  text-align: left;
+}
+
+.contenedor-botones {
+  width: 530px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+
+.boton1 {
+  font-size: 30px;
+  font-weight: 450;
+  padding: 15px 10px;
+  background-color: rgb(50, 206, 50);
+  color: #000000;
+  width: 270px;
+  border-radius: 2px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.boton2 {
+  font-size: 30px;
+  font-weight: 800;
+  padding: 15px 25px;
+  background-color: #000;
+  color: #bebebe;
+  width: 230px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.boton1:hover {
+  background-color: #000;
+  color: rgb(50, 206, 50);
+}
+
+.boton2:hover {
+  background-color: #fff;
+  color: #000;
+} /*LADO DERECHO*/
+
+.derecho {
+  flex: 1;
+  width: 50%;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 50px;
+}
+
+.derecho p {
+  width: 800px;
+  color: #ffff;
+  float: right;
+}
+
+.derecho > p > strong {
+  color: rgb(5, 197, 245);
+}
+
+.derecho > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+}
